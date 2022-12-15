@@ -1,0 +1,251 @@
+.App {
+  background-color: red;
+  width: 100%;
+  height: 200vh;
+}
+.container {
+  display: flex;
+  background-color: white;
+  height: 100%;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  height: 5%;
+
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn1 {
+  font-size: 25px;
+  font-style: unset;
+  border: none;
+  background-color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+.btn2 {
+  font-size: small;
+  font-style: italic;
+  cursor: pointer;
+  background-color: rgb(83, 83, 240);
+  border-radius: 8px;
+  border: none;
+}
+.btn {
+  background-color: white;
+  margin-right: 10px;
+  margin: 10px;
+  font-size: 15px;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-style: oblique;
+  font-weight: 500;
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+  border: none;
+}
+.subContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.leftcontainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 50%;
+  background-color: rgb(255, 246, 239);
+  text-align: center;
+  justify-content: center;
+}
+.txt1 {
+  font-size: x-large;
+  font-weight: 1000;
+}
+.rightcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  height: 100vh;
+  width: 50%;
+  margin-top: 10px;
+}
+.txt2 {
+  font-size: medium;
+  font-weight: 700;
+}
+
+.arcontainer {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  width: 100%;
+}
+.acontainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(196, 255, 221);
+  align-items: center;
+  justify-content: center;
+}
+.bcontainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(214, 159, 214);
+}
+.brcontainer {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  width: 100%;
+}
+.ccontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(255, 246, 239);
+}
+.dcontainer {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(195, 195, 247);
+}
+
+.bottom header {
+  display: flex;
+  flex-direction: row;
+  height: 20%;
+  width: 100%;
+  align-items: center;
+}
+.txt3 {
+  background-color: white;
+  border: none;
+
+  font-size: 15px;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-style: oblique;
+  font-weight: 500;
+  justify-content: space-around;
+  padding: 20px;
+}
+.Alltxt {
+  justify-content: space-around;
+}
+.btn4 {
+  margin-right: 80px;
+  font-size: larger;
+  font-weight: bolder;
+}
+.parentcontainer {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+  width: 80%;
+  background-color: rgb(233, 241, 255);
+  margin-left: 120px;
+}
+.container1 {
+  display: flex;
+  height: 85%;
+  background-color: rgb(190, 188, 184);
+  width: 25%;
+  margin: 20px;
+}
+.container2 {
+  display: flex;
+  height: 85%;
+  background-color: rgb(190, 188, 184);
+  width: 25%;
+  margin: 20px;
+  position: relative;
+}
+.container3 {
+  display: flex;
+  height: 85%;
+  background-color: rgb(190, 188, 184);
+  width: 25%;
+  margin: 20px;
+}
+.container4 {
+  display: flex;
+  height: 85%;
+  background-color: rgb(190, 188, 184);
+  width: 25%;
+  margin: 20px;
+}
+@media (max-width: 768px) {
+  .subContainer {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .leftcontainer {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .rightcontainer {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .parentcontainer {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .Alltxt {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .icon {
+    display: flex;
+  }
+}
+.appbtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35%;
+}
+.button {
+  display: flex;
+  border: none;
+  padding: 20px;
+  background-color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: medium;
+}
