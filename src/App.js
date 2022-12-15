@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 // import { MuiDrawer } from "./MuiDrawer";
 import Drawer from "./components/drawer";
+import CategoryCard from "./components/CategoryCard";
 function App() {
   return (
     <div className="App">
@@ -37,37 +38,14 @@ function App() {
             <a href="">SHOP NOW</a>
           </div>
           <div className="rightcontainer">
-            <div className="arcontainer">
-              <div className="acontainer">
-                <text className="txt2">Men's Fashion</text>
-                <text>358 items</text>
-                <br></br>
-                <a href="">SHOP NOW</a>
-              </div>
-              <div className="bcontainer">
-                <text className="txt2">Kid's Fashion</text>
-
-                <text>273 items</text>
-                <br></br>
-                <a href="">SHOP NOW</a>
-              </div>
-            </div>
-            <div className="brcontainer">
-              <div className="ccontainer">
-                <text className="txt2">Cosmetics</text>
-
-                <text>159 items</text>
-                <br></br>
-                <a href="">SHOP NOW</a>
-              </div>
-              <div className="dcontainer">
-                <text className="txt2">Acessories</text>
-
-                <text>792 items</text>
-                <br></br>
-                <a href="">SHOP NOW</a>
-              </div>
-            </div>
+            <CategoryCard background="red" title="men's Fashion" item={212} />
+            <CategoryCard
+              background="orange"
+              title="kid's Fashion"
+              item={310}
+            />
+            <CategoryCard background="blue" title="women's Fashion" item={10} />
+            <CategoryCard />
           </div>
         </div>
         <div className="bottom header">

@@ -70,27 +70,21 @@
 }
 .rightcontainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: red;
   height: 100vh;
   width: 50%;
-  margin-top: 10px;
+  flex-wrap: wrap;
 }
 .txt2 {
   font-size: medium;
   font-weight: 700;
 }
 
-.arcontainer {
-  display: flex;
-  flex-direction: row;
-  height: 50%;
-  width: 100%;
-}
 .acontainer {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 50%;
   width: 50%;
   background-color: rgb(196, 255, 221);
   align-items: center;
@@ -104,12 +98,6 @@
   height: 100%;
   width: 50%;
   background-color: rgb(214, 159, 214);
-}
-.brcontainer {
-  display: flex;
-  flex-direction: row;
-  height: 50%;
-  width: 100%;
 }
 .ccontainer {
   display: flex;
