@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 // import { MuiDrawer } from "./MuiDrawer";
 import Drawer from "./components/drawer";
+import Navtab from "./components/Navtab";
 import CategoryCard from "./components/CategoryCard";
 function App() {
   return (
@@ -12,15 +13,7 @@ function App() {
             <Drawer />
             <button className="btn1">Ashion</button>
           </div>
-          <div>
-            <button className="btn">Home</button>
-            <button className="btn">Women's</button>
-            <button className="btn">Men's</button>
-            <button className="btn">Shop</button>
-            <button className="btn">Pages</button>
-            <button className="btn">Blog</button>
-            <button className="btn">Contact</button>
-          </div>
+          <Navtab title="HOME WOMEN'S MEN'S SHOP PAGES BLOG CONTACT" />
           <div>
             <button className="btn2">Login/Register</button>
           </div>
