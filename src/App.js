@@ -1,62 +1,72 @@
 import "./App.css";
 import React from "react";
-// import { MuiDrawer } from "./MuiDrawer";
-import Drawer from "./components/drawer";
-import Navtab from "./components/Navtab";
+import Header from "./components/Header";
 import CategoryCard from "./components/CategoryCard";
+import MinHead from "./components/MinHead";
 function App() {
   return (
     <div className="App">
-      <div className="container">
-        <header className="header">
-          <div className="icon">
-            <Drawer />
-            <button className="btn1">Ashion</button>
-          </div>
-          <Navtab title="HOME WOMEN'S MEN'S SHOP PAGES BLOG CONTACT" />
-          <div>
-            <button className="btn2">Login/Register</button>
-          </div>
-        </header>
-        <div className="subContainer">
-          <div className="leftcontainer">
-            <text className="txt1">Women's Fashion</text>
-            <br></br>
-            <text>
-              Sitamet, consectetur adipiscing elit, sed do eiusmod tempor
-              incidid- <br></br>unt labore edolore magna aliquapendisse ultrices
-              gravida
-            </text>
-            <br></br>
-            <a href="">SHOP NOW</a>
-          </div>
-          <div className="rightcontainer">
-            <CategoryCard background="red" title="men's Fashion" item={212} />
-            <CategoryCard
-              background="orange"
-              title="kid's Fashion"
-              item={310}
-            />
-            <CategoryCard background="blue" title="women's Fashion" item={10} />
-            <CategoryCard />
-          </div>
+      <Header />
+
+      <div className="subContainer">
+        <div className="leftcontainer">
+          <text className="txt1">Women's Fashion</text>
+          <br></br>
+          <text>
+            Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-{" "}
+            <br></br>unt labore edolore magna aliquapendisse ultrices gravida
+          </text>
+          <br></br>
+          <a href="">SHOP NOW</a>
         </div>
-        <div className="bottom header">
-          <div className="btn4">NEW PRODUCT</div>
-          <div className="Alltxt">
-            <button className="txt3">All</button>
-            <button className="txt3">Women's</button>
-            <button className="txt3">Men's</button>
-            <button className="txt3">Kid's</button>
-            <button className="txt3">Acessories</button>
-            <button className="txt3">Cosmetics</button>
-          </div>
+        <div className="rightcontainer">
+          <CategoryCard
+            background="sea green"
+            title="men's Fashion"
+            item={212}
+          />
+          <CategoryCard
+            background="rgb(187, 182, 182)"
+            title="kid's Fashion"
+            item={310}
+          />
+          <CategoryCard
+            background="rgb(250, 210, 217)"
+            title="women's Fashion"
+            item={10}
+          />
+          <CategoryCard background="sea green" />
         </div>
-        <div className="parentcontainer">
+      </div>
+      <div className="bottom header">
+        <MinHead />
+      </div>
+      <div className="parentcontainer">
+        <div className="pc1">
+          {" "}
           <div className="container1"></div>
+          <div className="txtpc1">
+            Button Tweed Blazer<br></br> $ 59.0
+          </div>
+        </div>
+        <div className="pc2">
+          {" "}
           <div className="container2"></div>
+          <div className="txtpc2">
+            Flowy Striped Skirt<br></br> $ 49.0
+          </div>
+        </div>
+        <div className="pc3">
           <div className="container3"></div>
+          <div className="txtpc3">
+            Cotton T-Shirt <br></br> $ 59.0
+          </div>
+        </div>
+        <div className="pc4">
           <div className="container4"></div>
+          <div className="txtpc4">
+            Slim Stripped Pocket Shirt<br></br> $ 59.0
+          </div>
         </div>
       </div>
     </div>
