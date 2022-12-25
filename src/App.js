@@ -69,6 +69,38 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="prntcon2">
+        <div className="pc5">
+          <div className="con5"></div>
+          <div className="txtcon5">
+            Fit micro corduroy shirt<br></br> $ 59.0
+          </div>
+        </div>
+        <div className="pc6">
+          <div className="con6"></div>
+          <div className="txtcon6">
+            Tropical Kimono <br></br>$ 49.0{" "}
+          </div>
+        </div>
+        <div className="pc7">
+          <div className="con7"></div>
+          <div className="txtcon7">
+            Contrasting sunglasses <br></br>$ 59.0
+          </div>
+        </div>
+        <div className="pc8">
+          <div className="con8"></div>
+          <div className="txtcon8">
+            Water resistant backpack<br></br> $ 49.0
+          </div>
+        </div>
+      </div>
+      <div className="design">
+        <button className="BUTTON">
+          THE CHLOE COLLECTION<br></br> <br></br>THE PROJECT JACKET<br></br>
+          <br></br>SHOP NOW
+        </button>
+      </div>
     </div>
   );
 }
