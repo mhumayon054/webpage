@@ -95,6 +95,9 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="LearnMore">
+        <button className="LM">Learn More</button>
+      </div>
       <div className="design">
         <button className="BUTTON">
           THE CHLOE COLLECTION<br></br> <br></br>THE PROJECT JACKET<br></br>
