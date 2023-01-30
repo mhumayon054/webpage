@@ -11,16 +11,15 @@ function App() {
         <div className="icon">
           <button className="btn1">Ashion</button>
         </div>
-        {/* <nav> */} {/* <div className="wrapper"> */}
-        {/* <div className="logo"></div> */}
+
         <ul className="nav-links">
           <li>
             <a href="#">Category </a>
             <div className="mega-box">
               <div className="content">
                 <div className="row">
-                  <header>Email Services</header>
                   <ul className="mega-links">
+                    <header>Email Services</header>
                     <li>
                       <a href="#">Personal Email</a>
                     </li>
@@ -73,8 +72,7 @@ function App() {
             </div>
           </li>
         </ul>
-        {/* </div> */}
-        {/* </nav> */}
+
         <Navtab title="HOME WOMEN'S MEN'S SHOP PAGES BLOG CONTACT" />
         <div>
           <button className="btn2">Login/Register</button>

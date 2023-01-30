@@ -17,15 +17,6 @@
   align-items: center;
   justify-content: space-around;
 }
-nav .wrapper {
-  max-width: 1250px;
-  position: relative;
-  padding: 0 10px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .nav-links li a {
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -37,12 +28,6 @@ nav .wrapper {
 }
 .nav-links {
   display: inline-flex;
-}
-.logo a {
-  color: #f2f2f2;
-  text-decoration: none;
-  font-size: 30px;
-  font-weight: 600px;
 }
 .nav-links li {
   list-style: none;
@@ -60,18 +45,10 @@ nav .wrapper {
   opacity: 0;
   visibility: hidden;
 }
-.drop-menu li a {
-  display: block;
-  width: 100%;
-  padding: 0 0 0 15px;
-  font-weight: 400px;
-  border-radius: 0px;
-}
 .nav-links :hover .drop-menu,
 .nav-links :hover .mega-box {
   opacity: 1;
   top: 65px;
-
   transition: all 0.3s ease;
   visibility: visible;
 }
@@ -273,11 +250,15 @@ nav .wrapper {
   font-size: larger;
   font-weight: bolder;
 }
+.allmidcon {
+  height: 63vh;
+  width: 80%;
+}
 .parentcontainer {
   display: flex;
   flex-direction: row;
-  height: 63vh;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   background-color: white;
   margin-left: 120px;
 }
@@ -558,18 +539,28 @@ nav .wrapper {
   border-radius: 6px;
   cursor: pointer;
 }
+/* .sliderbox {
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+} */
 .design {
   display: flex;
   flex-direction: column;
-  height: 70vh;
+  height: 61vh;
+  /* margin: 50px; */
   width: 100%;
-  background-color: rgb(236, 236, 236);
+  background-color: black;
   align-items: center;
-  justify-content: center;
 }
 .BUTTON {
   font-size: x-large;
   font-weight: 500;
   font-style: italic;
   border: none;
+}
+.textscroller {
+  font-size: larger;
+  font-weight: 800;
+  /* font-style: bolder; */
 }

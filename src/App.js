@@ -3,11 +3,12 @@ import React from "react";
 import Header from "./components/Header";
 import CategoryCard from "./components/CategoryCard";
 import MinHead from "./components/MinHead";
+import ProductSlider from "./ProductSlider";
+
 function App() {
   return (
     <div className="App">
       <Header />
-
       <div className="subContainer">
         <div className="leftcontainer">
           <text className="txt1">Women's Fashion</text>
@@ -41,31 +42,33 @@ function App() {
       <div className="bottom header">
         <MinHead />
       </div>
-      <div className="parentcontainer">
-        <div className="pc1">
-          {" "}
-          <div className="container1"></div>
-          <div className="txtpc1">
-            Button Tweed Blazer<br></br> $ 59.0
+      <div className="allmidcon">
+        <div className="parentcontainer">
+          <div className="pc1">
+            {" "}
+            <div className="container1"></div>
+            <div className="txtpc1">
+              Button Tweed Blazer<br></br> $ 59.0
+            </div>
           </div>
-        </div>
-        <div className="pc2">
-          {" "}
-          <div className="container2"></div>
-          <div className="txtpc2">
-            Flowy Striped Skirt<br></br> $ 49.0
+          <div className="pc2">
+            {" "}
+            <div className="container2"></div>
+            <div className="txtpc2">
+              Flowy Striped Skirt<br></br> $ 49.0
+            </div>
           </div>
-        </div>
-        <div className="pc3">
-          <div className="container3"></div>
-          <div className="txtpc3">
-            Cotton T-Shirt <br></br> $ 59.0
+          <div className="pc3">
+            <div className="container3"></div>
+            <div className="txtpc3">
+              Cotton T-Shirt <br></br> $ 59.0
+            </div>
           </div>
-        </div>
-        <div className="pc4">
-          <div className="container4"></div>
-          <div className="txtpc4">
-            Slim Stripped Pocket Shirt<br></br> $ 59.0
+          <div className="pc4">
+            <div className="container4"></div>
+            <div className="txtpc4">
+              Slim Stripped Pocket Shirt<br></br> $ 59.0
+            </div>
           </div>
         </div>
       </div>
@@ -99,10 +102,7 @@ function App() {
         <button className="LM">Learn More</button>
       </div>
       <div className="design">
-        <button className="BUTTON">
-          THE CHLOE COLLECTION<br></br> <br></br>THE PROJECT JACKET<br></br>
-          <br></br>SHOP NOW
-        </button>
+        <ProductSlider />
       </div>
     </div>
   );
