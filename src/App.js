@@ -104,6 +104,119 @@ function App() {
       <div className="design">
         <ProductSlider />
       </div>
+      <div className="productcategories">
+        <div className="ppc1">
+          <div className="wrapcon">HOT TREND</div>
+          <div className="wrapcon1">
+            <div className="box">
+              <div className="smbox"></div>
+            </div>
+            <div className="catxt">
+              <p>Chain Bucket Bag</p>
+              <p>59$</p>
+            </div>
+          </div>
+          <div className="wrapcon2">
+            <div className="box">
+              <div className="smbox"></div>
+            </div>
+            <div className="catxt">
+              <p>Chain Bucket Bag</p>
+              <p>59$</p>
+            </div>
+          </div>
+          <div className="wrapcon3">
+            {" "}
+            <div className="box">
+              <div className="smbox"></div>
+            </div>
+            <div className="catxt">
+              <p>Chain Bucket Bag</p>
+              <p>59$</p>
+            </div>
+          </div>
+        </div>
+        <div className="ppc2">
+          <div className="wrapcon4">BEST SELLER</div>
+          <div className="wrapcon5">
+            {" "}
+            <div className="box">
+              <div className="smbox"></div>
+            </div>
+            <div className="catxt">
+              <p>Chain Bucket Bag</p>
+              <p>59$</p>
+            </div>
+          </div>
+          <div className="wrapcon6">
+            {" "}
+            <div className="box">
+              <div className="smbox"></div>
+            </div>
+            <div className="catxt">
+              <p>Chain Bucket Bag</p>
+              <p>59$</p>
+            </div>
+          </div>
+          <div className="wrapcon7">
+            {" "}
+            <div className="box">
+              <div className="smbox"></div>
+            </div>
+            <div className="catxt">
+              <p>Chain Bucket Bag</p>
+              <p>59$</p>
+            </div>
+          </div>
+        </div>
+        <div className="ppc3">
+          <div className="wrapcon8">FEATURE</div>
+          <div className="wrapcon9">
+            {" "}
+            <div className="box">
+              <div className="smbox"></div>
+            </div>
+            <div className="catxt">
+              <p>Chain Bucket Bag</p>
+              <p>59$</p>
+            </div>
+          </div>
+          <div className="wrapcon10">
+            {" "}
+            <div className="box">
+              <div className="smbox"></div>
+            </div>
+            <div className="catxt">
+              <p>Chain Bucket Bag</p>
+              <p>59$</p>
+            </div>
+          </div>
+          <div className="wrapcon11">
+            {" "}
+            <div className="box">
+              <div className="smbox"></div>
+            </div>
+            <div className="catxt">
+              <p>Chain Bucket Bag</p>
+              <p>59$</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="timepic">
+        <div className="lc">
+          <img
+            src="https://preview.colorlib.com/theme/ashion/img/discount.jpg"
+            alt="girl"
+          />
+        </div>
+        <div className="rc">
+          {" "}
+          <div className="circle">
+            <p>DISCOUNT</p> <p>SUMMER 2019</p> <p>SALE 50%</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

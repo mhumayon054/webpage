@@ -548,8 +548,8 @@
   display: flex;
   flex-direction: column;
   height: 61vh;
-  /* margin: 50px; */
-  width: 100%;
+  margin-left: 411px;
+  width: 40%;
   background-color: black;
   align-items: center;
 }
@@ -563,4 +563,219 @@
   font-size: larger;
   font-weight: 800;
   /* font-style: bolder; */
+}
+.productcategories {
+  height: 85vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+/* .ppc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+.ppc1 {
+  background-color: white;
+  height: 100%;
+  width: 33%;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+}
+.ppc2 {
+  background-color: white;
+  height: 100%;
+  width: 34%;
+}
+.ppc3 {
+  background-color: white;
+  height: 100%;
+  width: 33%;
+}
+.wrapcon {
+  height: 10%;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 700;
+  color: black;
+}
+
+.wrapcon1 {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.catxt {
+  height: 100%;
+  width: 65%;
+  background-color: white;
+  font-size: large;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+.box {
+  display: flex;
+  height: 100%;
+  width: 35%;
+  background-color: white;
+  flex-direction: row;
+  justify-content: center;
+}
+.smbox {
+  height: 70%;
+  width: 70%;
+  background-color: black;
+}
+.wrapcon2 {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+/* .catxt2 {
+  height: 100%;
+  width: 65%;
+  background-color: white;
+  font-size: large;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.box2 {
+  display: flex;
+  height: 100%;
+  width: 35%;
+  background-color: orange;
+  flex-direction: row;
+  justify-content: center;
+}
+.smbox2 {
+  height: 70%;
+  width: 70%;
+  background-color: black;
+} */
+.wrapcon3 {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.wrapcon4 {
+  height: 10%;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 700;
+  color: black;
+}
+.wrapcon5 {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.wrapcon6 {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.wrapcon7 {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.wrapcon8 {
+  height: 10%;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 700;
+  color: black;
+}
+.wrapcon9 {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.wrapcon10 {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.wrapcon11 {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.timepic {
+  display: flex;
+  height: 65vh;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+}
+.lc {
+  display: flex;
+  height: 100%;
+  width: 40%;
+  background-color: white;
+}
+.rc {
+  display: flex;
+  height: 100%;
+  width: 40%;
+  background-color: rgb(238, 226, 226);
+  justify-content: center;
+}
+.circle {
+  display: flex;
+  width: 175px;
+  height: 175px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
